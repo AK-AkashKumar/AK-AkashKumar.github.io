@@ -11,18 +11,51 @@ a.squiffy-link.disabled
     color: inherit !important;
     cursor: inherit;
 }
-div#squiffy-container
+a.squiffy-header-link
 {
-    background: #FFF;
-    color: black;
-    font-family: Georgia, serif;
-   
+	  padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px; 
+	font-weight: bold;
+    color: #818181;
+    display: block;
+    transition: 0.3
 }
 
+div#background
+{
+    max-width: 100%;
+    background: #FFF;
+    margin: 0;
+    color: black;
+}
+
+div#squiffy-container
+{
+    max-width: 100%;
+    background: #FFF;
+    padding: 20px;
+    margin-top: 30px;
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Georgia, serif;
+    -webkit-box-shadow: 4pxpx 4pxpx 4pxpx 4pxpx #0D0D0D;
+    box-shadow: 4pxpx 4pxpx 4pxpx 4pxpx #0D0D0D;
+}
+div#squiffy-header
+{
+    font-size: 16px;
+    background: #FFF;
+    text-align: right;
+}
 div#squiffy
 {
-    font-size: 18px;
+    font-size: 16px;
+    background: FFF;
 }
+
+
 hr {
     border: 0;
     height: 0;
