@@ -11,6 +11,14 @@ a.squiffy-link.disabled
     color: inherit !important;
     cursor: inherit;
 }
+div#squiffy-container
+{
+    background: #FFF;
+    color: black;
+    font-family: Georgia, serif;
+   
+}
+
 div#squiffy
 {
     font-size: 18px;
